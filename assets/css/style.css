@@ -1,0 +1,49 @@
+.arriba{ 
+    background-color: azure;
+    margin: -10px;
+    border: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
+.encabesado{
+    font-display: center;
+    margin: -10px;
+    border: 10px;
+    padding: 10px;
+    h1{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    width: 1080;
+    margin: 30px;
+    flex-basis: 300px;
+}
+.producto{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+.footer{
+    color:whitesmoke;
+    background-color: black;
+    text-align: center;
+    padding: 8px;
+    margin: -8px;
+}
